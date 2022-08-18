@@ -1,0 +1,65 @@
+.main-container {
+  background-color: lightblue;
+  height: 100vh;
+  padding: 2% 4% 2% 4%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.each-input-container {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.all-labels {
+  font-size: 23px;
+  font-family: Roboto;
+  margin-right: 10px;
+}
+.all-inputs {
+  height: 40px;
+  width: 330px;
+  border-radius: 5px;
+  margin-left: 10px;
+  outline: none;
+  font-size: 18px;
+  padding: 0px 8px 0px 8px;
+}
+.save-btn {
+  background-color: #ffffff;
+  font-size: 18px;
+  width: 120px;
+  padding: 6px 12px 6px 12px;
+  border-radius: 5px;
+  margin-left: 330px;
+  outline: none;
+  cursor: pointer;
+}
+.titles-container {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+}
+.title {
+  font-size: 23px;
+  font-weight: 500;
+  width: 17%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 15px;
+    font-weight: 500;
+    width: 17%;
+    text-align: center;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}

@@ -1,0 +1,26 @@
+.each-person-details-container {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  border-top: none;
+}
+.each-person-details {
+  font-size: 20px;
+  width: 17%;
+  text-align: center;
+}
+
+.edit-btn {
+  background-color: #ffffff;
+  padding: 3px 25px 3px 25px;
+  margin-top: 10px;
+  margin-left: 45px;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
